@@ -1,0 +1,13 @@
+#file handling
+file=open("demo1.txt",'r')
+content=file.read(30)
+print(content)
+print("...")
+file.close()
+file=open("demo1.txt",'r')
+c=file.readline()
+print(c)
+file.close()
+file=open("demo1.txt",'a')
+file.write("\nam paru\n from kollam\n 2022 btech pASS OUT")
+file.close()

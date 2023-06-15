@@ -1,0 +1,8 @@
+x = ("carrot", "broccoli", "asparagus", "cauliflower")
+y = list(x)
+y.insert(5, "Cabbage")
+y.append("beetroot")
+y.append("potato")
+x = tuple(y)
+print("x=",x)
+print("index of second last element = ",(x[-2]))
